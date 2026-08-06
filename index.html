@@ -9,12 +9,141 @@
   </head>
   <body>
     <header>
-      <nav class="flex justify-evenly bg-red-100"><a href="#">Home</a><a href="#">Galley</a></nav>
+      <nav class="flex justify-evenly bg-red-100 w-full">
+        <a href="#">Home</a><a href="#">Galley</a>
+      </nav>
     </header>
     <main>
-      <section>
-        <img src="" alt="">
+      <section class="flex items-center">
+        <div class="w-full">
+          <img
+            src="assets/image/picture/ChatGPT Image Aug 5, 2026, 09_41_18 PM.png"
+            alt="james-webb-image"
+            class="w-full h-[57rem] object-cover"
+          />
+        </div>
+        <div
+          class="absolute w-[60rem] h-[35rem] left-[10rem] bg-transparent backdrop-blur-[8px] border border-white/20 rounded-[20px] flex justify-center flex-col pl-[5rem]"
+        >
+          <h1 class="text-white text-[3.5rem] font-bold">
+            james<br />webb<br />space<br />Telescope
+          </h1>
+          <h2 class="text-white">
+            Webb is the premier observatory of the next decade, <br />
+            serving thousands of astronomers worldwide. It studies <br />
+            every phase in the history of our Universe.
+          </h2>
+        </div>
       </section>
+      <!-- <section class="bg-black flex items-center justify-center pt-[5rem] h-[100rem]">
+        <div
+          class="grid grid-cols-11 grid-rows-6 text-white max-w-7xl w-full gap-4"
+        >
+          <div
+            class="col-span-5 row-span-6 leading-relaxed rounded-[5px] bg-white/5 border border-white/10 pl-1 pt-1"
+          >
+            Webb studies every phase in the history of our Universe, ranging
+            from the first luminous glows after the Big Bang, to the formation
+            of solar systems capable of supporting life on planets like Earth,
+            to the evolution of our own Solar System. Webb launched on Dec. 25th
+            2021. It does not orbit around the Earth like the Hubble Space
+            Telescope, it orbits the Sun 1.5 million kilometers away.
+          </div>
+          <div class="col-span-1 row-span-5 col-start-6"></div>
+          <div
+            class="col-span-2 row-span-3 col-start-7 row-start-1 flex flex-col justify-center rounded-[5px] bg-white/5 border border-white/10 pl-3"
+          >
+            <span class="text-gray-400 text-sm tracking-[0.18rem]"
+              >Mission Type</span
+            >
+            <span class="text-lg font-semibold tracking-[0.1rem]"
+              >Astrophysics</span
+            >
+          </div>
+          <div
+            class="col-span-2 row-span-3 col-start-9 row-start-5 flex flex-col justify-center rounded-[5px] bg-white/5 border border-white/10 pl-3"
+          >
+            <span class="text-gray-400 text-sm tracking-[0.18rem]"
+              >Partners</span
+            >
+            <span class="text-lg font-semibold tracking-[0.1rem]"
+              >NASA / ESA / CSA</span
+            >
+          </div>
+          <div
+            class="col-span-2 row-span-3 col-start-7 row-start-5 flex flex-col justify-center rounded-[5px] bg-white/5 border border-white/10 pl-3"
+          >
+            <span class="text-gray-400 text-sm tracking-[0.18rem]">Launch</span>
+            <span class="text-lg font-semibold tracking-[0.1rem]"
+              >Dec 25, 2021</span
+            >
+          </div>
+          <div
+            class="col-span-2 row-span-3 col-start-9 row-start-1 flex flex-col justify-center rounded-[5px] bg-white/5 border border-white/10 pl-3"
+          >
+            <span class="text-gray-400 text-sm tracking-[0.18rem]"
+              >Arrival at L2</span
+            >
+            <span class="text-lg font-semibold tracking-[0.1rem]"
+              >Jan 24, 2022</span
+            >
+          </div>
+        </div>
+      </section> -->
+      <section class="grid grid-cols-10 grid-rows-6 gap-2 text-white bg-black p-20 pt-50">
+        <div
+          class="col-span-5 row-span-6 rounded-[10px] bg-white/5 border border-white/10 p-6 leading-relaxed"
+        >
+          Webb studies every phase in the history of our Universe, ranging from
+          the first luminous glows after the Big Bang, to the formation of solar
+          systems capable of supporting life on planets like Earth, to the
+          evolution of our own Solar System. Webb launched on Dec. 25th 2021. It
+          does not orbit around the Earth like the Hubble Space Telescope, it
+          orbits the Sun 1.5 million kilometers away.
+        </div>
+        <div class="col-span-1 row-span-6 col-start-6"></div>
+        <div
+          class="col-span-2 row-span-3 col-start-7 rounded-[10px] bg-white/5 border border-white/10 flex flex-col justify-center pl-4"
+        >
+          <span class="text-sm tracking-[0.18rem] text-gray-400">
+            Mission Type
+          </span>
+          <span class="text-lg font-semibold tracking-[0.1rem]">
+            Astrophysics
+          </span>
+        </div>
+        <div
+          class="col-span-2 row-span-3 col-start-9 rounded-[10px] bg-white/5 border border-white/10 flex flex-col justify-center pl-4"
+        >
+          <span class="text-sm tracking-[0.18rem] text-gray-400">
+            Arrival at L2
+          </span>
+          <span class="text-lg font-semibold tracking-[0.1rem]">
+            Jan 24, 2022
+          </span>
+        </div>
+        <div
+          class="col-span-2 row-span-3 col-start-7 row-start-4 rounded-[10px] bg-white/5 border border-white/10 flex flex-col justify-center pl-4"
+        >
+          <span class="text-sm tracking-[0.18rem] text-gray-400">
+            Launch
+          </span>
+          <span class="text-lg font-semibold tracking-[0.1rem]">
+            Dec 25, 2021
+          </span>
+        </div>
+        <div
+          class="col-span-2 row-span-3 col-start-9 row-start-4 rounded-[10px] bg-white/5 border border-white/10 flex flex-col justify-center pl-4"
+        >
+          <span class="text-sm tracking-[0.18rem] text-gray-400">
+            Partners
+          </span>
+          <span class="text-lg font-semibold tracking-[0.1rem]">
+            NASA / ESA / CSA
+          </span>
+        </div>
+      </section>
+      <section class="bg-red-100 h-100"></section>
     </main>
     <footer></footer>
   </body>
